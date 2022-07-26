@@ -1,0 +1,189 @@
+.restore-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.tasks-post {
+    text-align: center;
+    padding: 5px;
+}
+.posts-full-container {
+    min-width: 100%;
+    padding: 15px;
+    background: #ffffff;
+    border: solid 1px #e3e3e3;
+    border-radius: 10px;
+	margin: 0 !important;
+}
+.posts-title-container h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.posts-title-container h2 {
+    font-size: 20px;
+}
+.tasks-posts-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.task-post {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: solid 1px #cbcbcb;
+}
+form.search-form {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.search-input {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 10px !important;
+    max-width: 120px;
+    max-height: 25px;
+}
+.empty-image{
+    background: #f1f1f1;
+}
+.empty-image,
+.tasks-post_image img {
+    max-width: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    min-width: 60px;
+    border-radius: 100%;
+    margin: 5px 10px 20px 10px;
+}
+/*Post details*/
+.post-task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 990px;
+    margin: auto;
+}
+
+.post-task-container-title h1 {
+    text-transform: capitalize;
+}
+
+select.select_field {
+    padding: 3px;
+    font-size: 12px;
+}
+
+.post-task-container-description {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-task-container-description p{
+    display: flex;
+}
+.post-task-container-description div{
+    margin-left: 20px;
+    background: #ffffff;
+    border: solid 1px #e3e3e3;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.post-task-container-description div p{
+    margin-bottom: 0;
+}
+/*Add custons fields workflow*/
+
+table {
+    width: 100%;
+}
+input.multiple_task_workflow_field {
+    width: 100%;
+}
+td.actions-buttons {
+    display: flex;
+}
+
+.clone-row , .remove-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 20px;
+    min-width: 30px;
+    min-height: 30px;
+    margin-left: 20px;
+}
+.clone-row {
+    background: blue;
+}
+.remove-row {
+    background: red;
+}
+/*Table content*/
+.fieldset-table-content,
+.fieldset-table-content table,
+.fieldset-table-content table tbody tr,
+.fieldset-table-content table tbody tr th,
+.fieldset-table-content table tbody tr td{
+    border: none !important;
+    padding: 1px;
+    margin: 0;
+}
+.fieldset-table-content table tbody tr th label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.fieldset-table-content table tbody tr td{
+    text-align: left;
+    font-size: 12px;
+}
+
+/*menu*/
+.p5marketing_parent_class{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+ul#p5marketing_id {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background: #ffffff;
+    padding: 50px;
+}
+
+.surgisculpt-icon img {
+    max-width: 30px;
+    margin: 0 5px;
+}
+
+ul#p5marketing_id li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ba9d5a;
+}
+ul#p5marketing_id li .sub-menu li a {
+    font-size: 14px;
+    color: #3a3a3a;
+}
+.post-workflow-container {
+    margin: 50px;
+    background: #ffffff;
+    padding: 20px;
+    border: solid 1px #e3e3e3;
+    border-radius: 10px;
+}
+a.btn-add-new-workflow {
+    border: solid 2px #04a9e6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000000;
+    background: #f7f7f7;
+}
